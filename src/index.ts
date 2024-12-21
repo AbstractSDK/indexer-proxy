@@ -25,6 +25,7 @@ const INDEXER_HOST_MAP = {
   provider: 'cosmosHubProvider-testnet.indexer.daodao.zone',
   'theta-testnet-001': 'cosmosHubTheta-testnet.indexer.daodao.zone',
   'cosmoshub-4': 'cosmosHub-mainnet.indexer.daodao.zone',
+  'xion-testnet-1': 'xion-testnet.indexer.daodao.zone'
 }
 
 const queryIndexer = async ({ API_KEY }: Env, url: URL) => {
